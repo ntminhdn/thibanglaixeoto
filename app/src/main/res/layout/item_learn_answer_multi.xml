@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <CheckBox
+        android:id="@+id/cbAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/cbAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbAnswer1"
+        android:layout_margin="5dp"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/cbAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbAnswer2"
+        android:layout_margin="5dp"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/cbAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbAnswer3"
+        android:layout_margin="5dp"
+        android:visibility="gone" />
+</RelativeLayout>

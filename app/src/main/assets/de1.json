@@ -1,0 +1,568 @@
+[
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 1. “Vạch kẻ đường ” được hiểu như thế nào là đúng ?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Vạch kẻ đường là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Vạch kẻ đường là vạch chỉ sự phân biệt vị trí dừng, đỗ trên đường."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Tất cả các ý nên trên."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 2. “Người điều khiển phương tiện tham gia giao thông” gồm những đối tượng nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Người điều khiển xe cơ giới, người điều khiển xe thô xơ."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Người điều khiển xe máy chuyên dùng tham gia giao thông đường bộ."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 3. Trong hoạt động vận tải đường bộ, các hành vi nào sau đây bị nghiêm cấm?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Vận chuyển hàng cấm lưu thông."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Vận chuyển trái phép hoặc không thực hiện đầy đủ các quy định về vận chuyển hàng nguy hiểm, động vật hoang dã."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 4. Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy, những hành vi nào không được phép?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Buông cả hai tay hoặc đi xe bằng một bánh đối với xe hai bánh, bằng hai bánh đối với xe ba bánh; chạy quá tốc độ quy định."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Sử dụng xe để kéo, đẩy xe khác, vật khác và chở vật cồng kềnh; để chân chống quẹt xuống đất và các hành vi khác hây mất trật tự an toàn giao thông."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Chạy đúng tốc độ quy định và chấp hành đúng quy tắc giao thông đường bộ"
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 5. Khi vượt xe khác người lái xe phải thực hiện như thế nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Phải báo hiệu bằng đèn hoặc còi; trong đô thị và nơi đông dân cư từ 22 giờ đến 5 giờ chỉ được báo hiệu xin vượt bằng đèn."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Xe xin vượt chỉ được vượt khi không có chướng ngại vật ở phía trước, không có xe chạy ngược chiều trong đoạn đường định vượt, xe chạy trước không có tín hiệu xe khác và đã tránh về bê phải."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 6. Xe vận tải hàng có thùng cố định, bảo đảm an toàn giao thông được phép trở người trong những trường hợp nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Chở người đi làm nhiệm vụ phòng, chống thiên tai hoặc thực hiện nhiệm vụ khẩn cấp; chở cán bộ chiến sỹ của lực lượng vữ trang nhân dân đi làm nhiệm vụ, chở người bị nạn đi cấp cứu."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Chở công nhân duy tu, bảo dưỡng đường bộ; chở người đi học thưc hành lái xe trên xe tập lái; chở người diễu hành theo đoàn, giải tỏa người ra khỏi khu vực nguy hiểm hoặc trong trường hợp khẩn cấp theo quy định của pháp luật."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Được phép chở người nhưng phải đảm bảo an toàn."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 7. Xe quá tải trọng, quá khổ giới hạn tham gia giao thông cần tuân thủ quy định nào ghi ở dưới đây?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Phải được cơ quan quản lý đường bộ có thẩm quyền cấp phép và phải thực hiện các biện pháp bắt buộc để bảo vên đường bộ, đảm bảo an toàn giao thông."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Chủ phương tiện và lái xe chỉ cần thực hiện biện pháp để hanjc hế việc gây hư hại đường bộ."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Được tham gia giao thông khi cần thiết."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Câu 8. Người có giấy phép lái xe hạng C được điều khiển loại xe nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Xe ô tô chở người trên 9 chỗ ngồi; xe ô tô tải; máy kéo có trọng tải trên 3,5 tấn."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Xe ô tô chở người từ 10 đến 30 chỗ ngồi; xe ô tô tải; máy kéo có trọng tải trên 3,5 tấn."
+      },
+      {
+        "isCorrect": true,
+        "content": "C. Xe ô tô chở người đến 9 chỗ ngồi; xe ô tô tải; máy kéo có trọng tải trên 3,5 tấn."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 9. Trên đường 1 chiều, trước khi đến vạch người đi bộ qua đường có 1 xe tải đang dừng trước làn đường bên phải, người lái xe phải làm gì nếu xe của mình đang đi trên làn đường bên trái?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Ra tín hiệu cảnh báo và vượt qua xe tải."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Quan sát, giảm tốc độ hoặc dừng lại vì có thể có người đi bộ qua đường, sau đó đi tiếp."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Nhanh chóng vượt qua nếu không nhìn thấy người đi bộ qua đường từ bên trái."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 10. Trên đường bộ ngoài khu vực đông dân cư, loại xe nào tham gia giao thông với tốc độ tối đa cho phép là 70km\/h?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Ô tô chở người đến 30 chỗ ngồi (trừ ô tô buýt), ô tô tải có trọng tải dưới 3500 kg."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Ô tô chở người trên 30 chỗ ngồi (trừ ô tô buýt), ô tô tải có trọng tải dưới 3500 kg."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Ô tô buýt, ô tô sơ mi mooc, ô tô chuyên dùng, xe mô tô."
+      },
+      {
+        "isCorrect": false,
+        "content": "D. Ô tô kéo rơ mooc, ô tô kéo xe khác, xe gắn máy."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 11. Hàng nguy hiểm, hàng có mùi hôi thối hoặc động vật, hàng hóa khác có ảnh hưởng đến sức khỏe hành khách được nhận chở trên xe khách hay không?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Được chở"
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Không được chở"
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 12. Xe vận chuyển hàng nguy hiểm phải chấp hành những quy định nào ghi ở dưới đây?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Phải có giấy phép do cơ quan có thẩm quyền cấp, xe vận chuyển hàng nguy hiểm không được dừng, đỗ nơi đông người, những nơi dễ xảy ra nguy hiểm."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Phải được chuyên chở trên xe chuyên dùng để vận chuyển hàng nguy hiểm; xe vận chuyển hàng nguy hiểm phải chạy liên tục không được dừng đỗ trong quá trình vận chuyển."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Cả hai ý nêu trên."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 13. Người lái xe kinh doanh vận tải cần thực hiện những công việc gì ghi ở dưới đây để thường xuyên rèn luyện nâng cao đạo đức nghề nghiệp?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Phải yêu quý xe, quản lý và sử dụng xe tốt; bảo dưỡng xe đúng định kỳ; thực hành tiết kiệm vật tư, nhiên liệu; luôn tu dưỡng bản thân, có lối sống lành manj, tác phong làm việc công nghiệp."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Nắm vững các quy định của pháp luật, tự giác chấp hành pháp luật; lái xe an toàn, coi hành khách như người thân, là đối tác tin cậy; có ý thức tổ chức kỷ luật và xây dựng doanh nghiệp vững mạnh; có tình thần hợp tác, tương trợ, giúp đỡ đồng nghiệp."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 14. Khi xảy ra tai nạn giao thông, người lái xe và người có mặt tại hiện trường vụ tai nạn phải thực hiện các công tác gì dưới đây?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Đặt các biển cảnh báo hoặc vật báo hiệu ở phía trước và phía sau hiện trường xảy ra tai nạn để cảnh báo; kiểm tra khả năng xảy ra hảo hoạn do nhiên liệu bị rò rỉ."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Bảo vệ hiện trường vụ tai nạn và cấp cứu người bị thương."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 15. Khi điều khiển xe qua đường sắt, người lái xe cần thực hiện các thao tác nào dưới đây?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Dừng xe tạm thời khi có chuông báo hoặc thanh chắn đã hạ xuống."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Kéo phanh tay nếu đường dốc hoặc phải chờ lâu; về số thấp, tăng ga nhẹ để tránh động cơ chết máy."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 16. Khi động cơ ô tô có hộp số tự động đi trên đường trơn trượt, lầy lội hoặc xuống dốc cao và dài, người lái xe để cần số ở vị trí nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Vị trí D."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Vị trí L hoặc vị trí 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Vị trí N."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 17. Trong các nguyên nhân nêu dưới đây, nguyên nhân nào làm động cơ Diezel không nổ?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí, không có tia lửa điện."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí và nước, không có tia lửa điện."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 18. Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đi ngược chiều, xe đi ở phía đường bị hẹp phải nhường đường cho xe đi ngược chiều?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Biển 1."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Biển 2 và 3."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Cả 3 biển."
+      },
+      {
+        "isCorrect": false,
+        "content": "D. Biển 1 và 3."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 19. Biển nào cấm ô tô tải vượt?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-2.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Biển 1."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Biển 1 và 3."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Biển 1 và 2."
+      },
+      {
+        "isCorrect": true,
+        "content": "D. Biển 2 và 3."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 20. Biển nào báo hiệu đường một chiều?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-3.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Biển 1."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Biển 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Cả hai biển."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 21. Biển số 3 có ý nghĩa như thế nào?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-4.PNG",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Cấm các loại xe có trọng lượng toàn bộ (xe và hàng) trên 10 tấn đi qua."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Hạn chế tải trọng hàng hóa trở trên xe."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Hạn chế trọng lượng trên trục xe."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 22. Biển nào cấm xe đạp đi vào?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-5.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Biển 1."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Biển 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Biển 3."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 23. Biển số 1 có ý nghĩa gì?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-6.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Đi thẳng hoặc rẽ trái trên cầu vượt."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Đi thẳng hoặc rẽ phải trên cầu vượt."
+      },
+      {
+        "isCorrect": true,
+        "content": "C. Báo hiệu cầu vượt liên thông."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 24. Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-7.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Xe cứu thương, xe cưu hỏa, xe con."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Xe cứu hỏa, xe cứu thương, xe con."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Xe cứu thương, xe con, xe cứu hỏa."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Câu 25. Xe nào đỗ vi phạm quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-8.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Mô tô."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Xe tải."
+      },
+      {
+        "isCorrect": true,
+        "content": "C. Cả 3 xe."
+      },
+      {
+        "isCorrect": false,
+        "content": "D. Mô tô và xe tải."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 26. Những hướng nào ô tô tải được phép đi?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-9.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Cả 4 hướng."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Trừ hướng 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Hướng 2, 3 và 4."
+      },
+      {
+        "isCorrect": false,
+        "content": "D. Trừ hướng 4."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 27. Theo hướng mũi tên, những hướng nào xe mô tô được phép đi?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-10.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Cả 3 hướng."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Hướng 1 và 2."
+      },
+      {
+        "isCorrect": true,
+        "content": "C. Hướng 1 và 3."
+      },
+      {
+        "isCorrect": false,
+        "content": "D. Hướng 2 và 3."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 28. Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-11.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "A. Xe tải"
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Xe khách"
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Xe con"
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 29. Xe nào phải dừng lại trong trường hợp này?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/03\/01\/thi-sat-hach-ly-thuyet-lai-xe-online-mien-phi-de-so-1-cau-12.PNG",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Xe con."
+      },
+      {
+        "isCorrect": false,
+        "content": "B. Xe của bạn."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Cả hai xe."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Câu 30. Khái niệm “đường bộ” được hiểu như thế nào là đúng? Đường bộ gồm:",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "A. Đường, cầu đường bộ."
+      },
+      {
+        "isCorrect": true,
+        "content": "B. Hầm đường bộ, bến phà đường bộ."
+      },
+      {
+        "isCorrect": false,
+        "content": "C. Đường, cầu đường bộ, hầm đường bộ, bến phà đường bộ, và các công trình phụ trợ khác."
+      }
+    ]
+  }
+]

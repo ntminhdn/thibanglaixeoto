@@ -1,0 +1,549 @@
+[
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Khái niệm “đường phố” được hiểu như thế nào là đúng?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Đường phố là đường đô thị, gồm lòng đường và hè phố."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Đường phố là đường bộ ngoài đô thị có lòng đường đủ rộng cho các phương tiện giao thông qua lại."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Cả 2 ý trên."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Các hành vi nào ghi ở dưới đây bị nghiêm cấm? ",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Phá hoại đường, cầu hầm, bến phà đường bộ, phá hoại đèn tín hiệu, cọc tiêu, biển báo hiệu, gương cầu, dải phân cách."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Phá hoại hệ thống thoát nước và các công trình, thiết bị khác thuộc kết cấu hạ tầng giao thông đường bộ."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Những hành vi nào ghi ở dưới đây bị nghiêm cấm?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Sử dụng hè phố để đi bộ."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Sử dụng lòng đường, lề đường trái phép."
+      },
+      {
+        "isCorrect": true,
+        "content": "3. Sử dụng hè phố trái phép."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Tại nơi đương giao nhau, khi đèn điều khiển giao thông có tín hiệu vàng, người điều khiển phương tiện phải thực hiện như thế nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Phải cho xe dừng lại trước vạch dừng, trừ trường hợp đã đi quá vạch dừng thì được đi tiếp; trong trường hợp tín hiệu vàng nhấp nháy là được đi nhưng phải giảm tốc độ, chú ý quan sát, nhường đường cho người đi bộ qua đường."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Phải cho xe nhanh chóng chạy qua vạch dừng để đi qua đường giao nhau và chú ý đảm bảo an toàn; khi đèn tín hiệu vàng nhấp nháy là được đi nhưng phải giảm tốc độ, chú ý quan sát người đi bộ để đảm bảo an toàn."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Cả hai ý nêu trên."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Người lái xe phải làm gì khi quay đầu trên cầu, gầm cầu vượt, đường ngầm hay khu vực đường bộ giao nhau cùng mức với đường sắt?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Không được quay đầu xe."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Lợi dụng chỗ trộng và phải có người làm tín hiệu sau xe để bảo đảm an toàn."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Lợi dụng chỗ rộng có thể quay đầu được để quay đầu cho an toàn."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Khi đi qua phà, qua cầu phao người lái xe phải làm gì để đảm bảo an toàn?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Đến bến phà, cầu phao các loại xe phải xếp hàng trật tự, đúng nơi quy định, không làm cản trở giao thông, xuống phà, đang ở trên phà và khi lên bến, mọi người phải xuống xe, trừ người điều khiển xe cơ giới, người bệnh, người già yếu và người khuyết tật."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Xe cơ giới phải xuống phà trước, xe thô xơ, người đi bộ xuống phà sau; khi lên bến, người đi bộ lên trước, các phương tiện giao thông lên sau theo hướng dẫn của người điều khiển giao thông."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Xe cơ giới phải xuống phà sau, xe thô sơ, người đi bộ xuống phà trước."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Người ngồi trên xe mô tô 2 bánh, xe mô tô 3 bánh, xe gắn máy phải đội mũ bảo hiểm có cài quai đúng quy cách khi nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Khi tham gia giao thông đường bộ."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Chỉ khi đi trên đường cao tốc."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Người đủ bao nhiêu tuổi trở lên thì được điều khiển xe mô tô hai bánh, xe mô tô ba bánh có dung tích xi lanh từ 50 cm3 trở lên và các loại xe có kết cấu tương tự; xe ô tô tải, máy kéo có trọng tải dưới 3,5 tấn; xe ô tô trở người đến 9 chỗ ngồi?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. 16 tuổi."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. 18 tuổi."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. 17 tuổi."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Người lái xe mô tô xử lý như thế nào khi cho xe mô tô phía sau vượt?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Lái xe vào lề đường bên phải và giảm tốc độ để xe phía sau vượt qua."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Lái xe vào lề đường bên trái và giảm tốc độ để xe phía sau vượt qua."
+      },
+      {
+        "isCorrect": false,
+        "content": "1. Lái xe vào lề đường bên phải và tăng tốc độ để xe phía sau vượt qua."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Trên đường cao tốc, trừ khi nhập làn và tách làn, với điều kiện mặt đường khô ráo, xe cơ giới đang chạy với tốc độ trên 80km\/h đến 100km\/h, người lái xe phải duy trì khoảng cách an toàn với xe đang chạy phía trước tối thiểu là bao nhiêu?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. 50m."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. 60m."
+      },
+      {
+        "isCorrect": true,
+        "content": "3. 70m."
+      },
+      {
+        "isCorrect": false,
+        "content": "4. 80m."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Hành khách có các quyền gì khi đi trên xe vận tải hành khách?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Được vận chuyển theo đúng hợp đồng vận tải, cam kết của người kinh doanh về chất lượng vận tải; được miễn cước hành lý với trọng lượng không quá 20 kg và với kích thước phù hợp với thiết kế của xe; được từ chối chuyến đi trước khi phương tiện khởi hành và được trả lại tiền vé theo quy định của Bộ Giao thông vận tải."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Được vận chuyển theo đúng hợp động vận tải, cam kết của người kinh doanh về vận tải; được miễn cước hành lý với trọng tải không quá 50 kg và với kích thước không quá cồng kềnh; được từ chố chuyến đi trước khi phương tiện khởi hành và được trả lại tiền vé."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Tất cả các quyền nêu trên."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Ký hiệu chuyên dùng nào biểu hiện hàng chuyên chở phải tránh ánh nắng mặt trời?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-1.PNG",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Hình 1."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Hình 2."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Trên làn đường dành cho ô tô có vũng nước lớn, có nhiều người đi xe mô tô trên làn đường bên cạnh, người lái xe ô tô xử lý như thế nào là có văn hóa giao thông?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Cho xe chạy thật nhanh qua vũng nước."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Giảm tốc độ cho xe chạy chậm qua vũng nước."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Giảm tốc độ cho xe chạy qua làn đường dành cho mô tô để tránh vũng nước."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Khi nhả phanh tay, người lái xe cần phải thực hiện các thao tác nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Dùng lực tay phải kéo cần phanh tay về phía sau hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh phanh tay về phía trước, sau đó bóp khóa hãm."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Dùng lực tay phải bóp khóa hãm đẩy cần phanh tay về phía trước hết hành trình, nếu khóa hãm bị kẹt cứng thì phải kéo cần phanh tay về phía sau đồng thời bóp khóa hãm."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Dùng lực tay phải đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh cần nahnh tay về phía trước, sau đó bóp khóa hãm."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Đề giảm tốc độ khi ô tô đi xuống đường dốc dài, người lái xe phải thực hiện các thao tác nào?  ",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Nhả bàn đạp ga, đạp ly hợp kết hành trình, đạp mạnh phanh chân để giảm tốc độ."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Nhả bàn đạp ga, về số thấp, đạp phanh chân với mức độ phù hợp để giảm tốc độ."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Nhả bàn đạp ga, tăng lên số cao, đạp nhanh chân với mức độ phù hợp để giảm tốc độ."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Khi đèn phà của xe đi ngược chiều gây chói mắt, làm giảm khả năng quan sát trên đường, người lái xe xử lý như thế nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Giảm tốc độ, nếu cần thiết có thể dừng lại."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Bật đèn pha chiếu xa và giữ nguyên tốc độ."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Cả hai ý nêu trên."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Thế nào là động cơ 2 kỳ?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Là loại động cơ: để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 2 hành trình, trong đó có 1 lần sinh công."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Là loại động cơ: để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 4 hành trình, trong đó có 1 lần sinh công."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Biển nào báo hiệu sắp đến chỗ giao nhau nguy hiểm?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-2.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Biển 1 và 2."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Biển 2 và 3."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Biển 1."
+      },
+      {
+        "isCorrect": false,
+        "content": "4. Cả 3 biển."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Biển nào báo hiệu đường hai chiều?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-3.PNG",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Biển 1."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Biển 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Biển 3."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Biển nào cho phép xe rẽ trái?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-4.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Biển 1."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Biển 2."
+      },
+      {
+        "isCorrect": true,
+        "content": "3. Không biển nào."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Bạn xử lý như thế nào trong trường hợp này?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-5.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Tăng tốc độ, rẽ phải trước xe con màu xanh phía trước và người đi bộ."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Giảm tốc độ, để người đi bộ qua đường và rẽ phải trước xe con màu xanh."
+      },
+      {
+        "isCorrect": true,
+        "content": "3. Giảm tốc độ, để người đi bộ qua đường và rẽ phải sau xe con màu xanh."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Biển nào không có hiệu lực đối với ô tô tải không kéo moóc?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-6.PNG",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Biển 1 và 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Biển 2 và 3."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Cả 3 biển."
+      },
+      {
+        "isCorrect": false,
+        "content": "4. Biển 1 và 3."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Biển nào xe ô tô con được phép vượt?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-7.PNG",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Biển 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Biển 1."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Biển 1 có ý nghĩa gì?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-8.PNG",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Biển chỉ dẫn hết hiệu lực khu vực cấm đỗ xe theo giờ trên các tuyến đường đối ngoại."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Biển chỉ dẫn hết hiệu lực khu vực cấm đỗ xe trên các tuyến đường đối ngoại."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Biển chỉ dẫn khu vực cấm đỗ trên các tuyến đường đối ngoại."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Xe nào được quyền đi trước trong trường hợp này?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-9.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Xe công an."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Xe chữa cháy."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Xe nào vượt đúng quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-10.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Cả hai xe đều không đúng."
+      },
+      {
+        "isCorrect": true,
+        "content": "2. Xe con."
+      },
+      {
+        "isCorrect": true,
+        "content": "3. Xe khách."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Các xe đi như thế nào là đúng quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-11.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Các xe ở phía tay phải và tay trái của người điều khiển được phép đi thẳng."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Cho phép các xe ở mọi hướng được rẽ trái."
+      },
+      {
+        "isCorrect": true,
+        "content": "3. Tất cả các xe phải dừng lại trước ngã tư, trừ những xe đã ở trong ngã tư được phép tiếp tục đi."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-12.PNG",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "1. Xe con (E), mô tô (C)."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Xe tải (A), mô tô (D)."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Xe khách (B), mô tô (C)."
+      },
+      {
+        "isCorrect": false,
+        "content": "4. Xe khách (B), mô tô (D)."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Bạn được dừng xe ở vị trí nào trong tình huống này?",
+    "image": "https:\/\/i.vietnamdoc.net\/data\/image\/2016\/06\/10\/thi-sat-hach-ly-thuyet-lai-xe-o-to-online-mien-phi-de-so-7-13.PNG",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "1. Được phép dừng ở vị trí A."
+      },
+      {
+        "isCorrect": false,
+        "content": "2. Được phép dừng ở vị trí B."
+      },
+      {
+        "isCorrect": false,
+        "content": "3. Được phép dừng ở vị trí A và B."
+      },
+      {
+        "isCorrect": true,
+        "content": "4. Không được dừng."
+      }
+    ]
+  }
+]

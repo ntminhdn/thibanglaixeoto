@@ -1,0 +1,548 @@
+[
+  {
+    "type": "q-choices",
+    "questionContent": "Khái niệm “đường cao tốc” được hiểu như thế nào là đúng?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Là đường dành cho xe cơ giới, có dải phân cách chia đường cho xe chạy hai chiều riêng biệt; không giao nhau cùng mức với một hoặc các đường khác; được bố trí đầy đủ trang thiết bị phục vụ, bảo đảm giao thông liên tục, an toàn, rút ngắn thời gian hành trình và chỉ cho xe ra, vào ở những điểm nhất định."
+      },
+      {
+        "isCorrect": false,
+        "content": "Là đường chỉ dành cho xe cơ giới chạy với tốc độ cao, có dải phân cách chia đường cho xe chạy hai chiều ngược nhau riêng biệt; không giao cắt cùng mức với đường khác; bố trí đầy đủ trang thiết bị phục vụ bảo đảm giao thông, an toàn và rút ngắn thời gian hành trình."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Người điều khiển ô tô, máy kéo, xe máy chuyên dùng trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá bao nhiêu thì bị cấm?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Người điều khiển xe ô tô, máy kéo, xe máy chuyên dùng trên đường mà trong máu có nồng độ cồn vượt quá 50 miligam\/100 mililít máu hoặc 0,25 miligam\/1 lít khi thở."
+      },
+      {
+        "isCorrect": true,
+        "content": "Người điều khiển xe ô tô, máy kéo, xe máy chuyên dùng trên đường mà trong máu hoặc hơi thở có nồng độ cồn."
+      },
+      {
+        "isCorrect": false,
+        "content": "Người điều khiển xe ô tô, máy kéo, xe máy chuyên dùng trên đường mà trong máu có nồng độ cồn vượt quá 80 miligam\/100 mililít máu hoặc 40 miligam\/1 lít khí thở."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Ở những nơi nào không được quay đầu xe?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Ở phần đường dành cho người đi bộ qua đường, đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất."
+      },
+      {
+        "isCorrect": false,
+        "content": "Tại nơi đường bộ giao nhau cùng mức."
+      },
+      {
+        "isCorrect": true,
+        "content": "Trên cầu, đầu cầu, gầm cầu vượt, ngầm, trong hầm đường bộ, đường cao tốc, tại nơi đường bộ giao nhau cùng mức với đường sắt."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Tại nơi đường giao nhau, khi người điều khiển giao thông ra hiệu lệnh tay giơ thẳng đứng để báo hiệu thì người tham gia giao thông phải đi như thế nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Người tham gia giao thông ở phía trước và ở phía sau người điều khiển giao thông phải dừng lại; người tham gia giao thông ở phái bên ở phía bên phải và phía bên người điều khiển được đi."
+      },
+      {
+        "isCorrect": true,
+        "content": "Người tham giao giao thông ở các hướng phải dừng lại."
+      },
+      {
+        "isCorrect": false,
+        "content": "Tất cả các trường hợp trên."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Khi tránh xe đi ngược chiều các xe phải nhường đường như thế nào là đúng?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Nơi đường hẹp chỉ đủ cho một xe chạy và có chỗ tránh xe thì xe nào ở gần chỗ tránh hơn phải vào vị trí tránh, nhường đường cho xe kia đi."
+      },
+      {
+        "isCorrect": true,
+        "content": "Xe xuống dốc phải nhường đường cho xe đang lên dốc; xe nào có chướng ngại vật phía trước phải nhường đường cho xe không có chướng ngại Vật đi trước."
+      },
+      {
+        "isCorrect": false,
+        "content": "Xe lên dốc phải nhường đường cho xe xuống dốc."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Tại nơi đường giao nhau không có báo hiệu đi theo vòng xuyến, người điều khiển phương tiện phải nhường đường như thế nào là đúng quy tắc giao thông?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Phải nhường đường cho xe đi đến từ bên phải."
+      },
+      {
+        "isCorrect": false,
+        "content": "Xe báo hiệu xin đường trước xe đó được đi trước."
+      },
+      {
+        "isCorrect": false,
+        "content": "Phải nhường đường cho xe đi đến từ bên trái."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Người điều khiển, người ngồi trên xe đạp máy phải đội mũ bảo hiểm có cài quai đúng quy cách khi nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Khi tham gia giao thông đường bộ."
+      },
+      {
+        "isCorrect": false,
+        "content": "Chỉ khi tham gia giao thông trên đường quốc lộ; khu vực đô thị."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Tuổi tối đa của người lái xe ô tô chở người trên 30 chỗ ngồi (hạng E) là bao nhiêu tuổi?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "55 tuổi đối với nam và 50 tuổi đối với nữ."
+      },
+      {
+        "isCorrect": false,
+        "content": "55 tuổi đối với cả nam và nữ."
+      },
+      {
+        "isCorrect": false,
+        "content": "60 tuổi đối với nam và 55 tuối đối với nữ."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Trong các trường hơp dưới đây, để đảm bảo an toàn khi tham gia giao thông, người lái xe mô tô cần thực hiện như thế nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Phảo đội mũ bảo hiểm có cài quai đúng quy cách, mặc quần áo gọn gàng."
+      },
+      {
+        "isCorrect": true,
+        "content": "Không sử dụng ô, điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính)."
+      },
+      {
+        "isCorrect": false,
+        "content": "Buông cả hai tay hoặc đi xe bằng một bánh."
+      },
+      {
+        "isCorrect": false,
+        "content": "Tất cả các ý nêu trên."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Người lái xe phải giảm tốc độ thấp hơn tốc độ tối đa cho phép đến mức không nguy hiểm trong các trường hợp nào dưới đây?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Khi vượt xe khác."
+      },
+      {
+        "isCorrect": true,
+        "content": "Khi cho xe chạy sau vượt."
+      },
+      {
+        "isCorrect": false,
+        "content": "Cả hai ý nêu trên."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Người kinh doanh vận tải hàng hóa có các quyền gì theo quy định được ghi ở dưới đây?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Yêu cầu người thuê vận tải cung cấp thông tin cần thiết về hàng hóa để ghi vào giấy vận chuyển và cố quyền kiểm tra tính chân thực của các thông tin đó."
+      },
+      {
+        "isCorrect": false,
+        "content": "Yêu cầu xếp hàng hóa vận chuyển trên xe vượt quá chiều cao quy định nhưng phải được chằng buộc chắc chắn."
+      },
+      {
+        "isCorrect": true,
+        "content": "Yêu cầu người thuê vận tải thanh toán đủ cước, phí vận tải và chi phí phát sinh; yêu cầu người thuê vận tải bồi thường thiệt hại do vi phạm hợp đồng; yêu cầu giám định hàng hóa khi cần thiết."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Hình nào dưới đây biểu hiện hàng chuyên chở là chất lỏng?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online1.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Hình 1."
+      },
+      {
+        "isCorrect": true,
+        "content": "Hình 2."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài màu đỏ tươi phun thành tia và phun mạnh khi mạch đập bạn phải làm gì?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Thực hiện cầm máu trực tiếp."
+      },
+      {
+        "isCorrect": true,
+        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
+      },
+      {
+        "isCorrect": true,
+        "content": "Thực hiện cầm máu bằng garo."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Khi tránh nhau trên đường hẹp, người lái xe cần phải chú ý những điểm nào?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Không nên đi cố vào đường hẹp; xe đi ở phía sườn núi nên dừng lại trước để nhường đường; khi dừng xe nhường đường phải đỗ ngay ngắn."
+      },
+      {
+        "isCorrect": true,
+        "content": "Trong khi tránh nhau không nên đổi số; khi tránh nhau ban đêm, phải tắt đèn pha bật đèn cốt."
+      },
+      {
+        "isCorrect": false,
+        "content": "Khi tránh nhau ban đêm phải bật đèn pha tắt đèn cốt."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "khi điều khiển xe ô tô trên đường trơn cần chú ý những điểm gì?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, giữ đều ga, đánh lái ngoặt và phanh gấp khi cần thiết."
+      },
+      {
+        "isCorrect": true,
+        "content": "Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, không lấy nhiều lái, đánh lái ngoặt và phanh gấp."
+      }
+    ]
+  },
+  {
+    "type": "q-checkboxes",
+    "questionContent": "Khi điều khiển ô tô gặp mưa to hoặc sương mù, người lái xe phải làm gì?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Bật đèn chiếu gần và đèn vàng, điều khiểu gạt nước, điều khiển ô tô đi với tốc độ chậm để có thể quan sát được."
+      },
+      {
+        "isCorrect": true,
+        "content": "Tìm chỗ an toàn dừng xe, bật đèn dừng khẩn cấp báo hiệu cho các xe khác biết."
+      },
+      {
+        "isCorrect": false,
+        "content": "Bật đèn chiếu xa và đèn vàng, điều khiển gạt nước, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa hoặc ssương mù."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Hãy nêu công dụng của động cơ ô tô?",
+    "image": "",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Khi làm việc, nhiệt năng được biến đổi thành cơ năng và truyền đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho ô tô."
+      },
+      {
+        "isCorrect": false,
+        "content": "Khi làm việc, cơ năng được biến đổi thành cơ năng và truyền đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho ô tô."
+      },
+      {
+        "isCorrect": false,
+        "content": "Cả hai ý nêu trên."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-2.jpg",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "isCorrect": false,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "isCorrect": false,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Biển nào báo hiệu cấm xe mô tô ba bánh đi vào?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-3.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "isCorrect": true,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "Biển 2 và 3."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Biển nào là biển báo hiệu cấm đi ngược chiều?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-4.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Biển 1."
+      },
+      {
+        "isCorrect": true,
+        "content": "Biển 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Biển nào cho phép được quay đầu xe đi theo hướng ngược lại khi đặt biển trước ngã ba, ngã tư?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-5.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Biển 1."
+      },
+      {
+        "isCorrect": false,
+        "content": "Biển 2."
+      },
+      {
+        "isCorrect": true,
+        "content": "Biển 3."
+      },
+      {
+        "isCorrect": false,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Biển này có hiệu lực đối với xe mô tô hai, ba bánh không?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-6.jpg",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Có."
+      },
+      {
+        "isCorrect": false,
+        "content": "Không."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Biển nào báo hiệu hết đường đôi?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-7.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Biển 2."
+      },
+      {
+        "isCorrect": false,
+        "content": "Biển 1."
+      },
+      {
+        "isCorrect": true,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Biển nào báo hiệu rẽ ra đường có làn đường dành cho ô tô khách?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-8.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Biển 1."
+      },
+      {
+        "isCorrect": false,
+        "content": "Biển 2."
+      },
+      {
+        "isCorrect": true,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Trong trường hợp này xe nào được quyền đi trước?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-9.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Xe công an."
+      },
+      {
+        "isCorrect": true,
+        "content": "Xe quân sự."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Xe nào phải nhường đường trong trường hợp này?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online10.jpg",
+    "answer": [
+      {
+        "isCorrect": true,
+        "content": "Xe khách."
+      },
+      {
+        "isCorrect": false,
+        "content": "Xe tải."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Xe nào vượt đúng quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-11.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Xe tải."
+      },
+      {
+        "isCorrect": false,
+        "content": "Cả hai xe."
+      },
+      {
+        "isCorrect": true,
+        "content": "Xe con."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-12.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Xe đỏ (A)."
+      },
+      {
+        "isCorrect": true,
+        "content": "Xe xanh (B)."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-13.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Xe tải, xe con."
+      },
+      {
+        "isCorrect": false,
+        "content": "Xe khách, xe con."
+      },
+      {
+        "isCorrect": true,
+        "content": "Xe khách, xe tải."
+      }
+    ]
+  },
+  {
+    "type": "q-choices",
+    "questionContent": "Xe nào phải nhường đường trong trường hợp này?",
+    "image": "https:\/\/i.vietnamdoc.net\/Data\/Image\/2016\/10\/13\/de-thi-sat-hach-lai-xe-o-to-online-14.jpg",
+    "answer": [
+      {
+        "isCorrect": false,
+        "content": "Xe đi ngược chiều."
+      },
+      {
+        "isCorrect": true,
+        "content": "Xe của bạn."
+      }
+    ]
+  }
+]
