@@ -22,4 +22,6 @@ public class Constants {
     public static final String ASSET_PATH_DE13 = "de13.json";
     public static final String ASSET_PATH_DE14 = "de14.json";
     public static final String ASSET_PATH_DE15 = "de15.json";
+
+    public static final String LESSON_NUMBER = "LESSON_NUMBER";
 }

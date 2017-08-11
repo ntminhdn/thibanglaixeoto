@@ -1,6 +1,10 @@
 package com.example.minhnt.thibanglaixeoto.util;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AlertDialog;
+
+import com.example.minhnt.thibanglaixeoto.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,5 +33,9 @@ public class Util {
         } catch (IOException ex) {
             return null;
         }
+    }
+
+    public static void showMessage(@NonNull Context context, String message) {
+        new AlertDialog.Builder(context).setTitle(R.string.app_name).setMessage(message).setPositiveButton(android.R.string.ok, null).show();
     }
 }

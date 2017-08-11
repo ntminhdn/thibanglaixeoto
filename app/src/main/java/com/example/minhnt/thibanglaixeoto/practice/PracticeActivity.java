@@ -1,14 +1,12 @@
-package com.example.minhnt.thibanglaixeoto.learn;
+package com.example.minhnt.thibanglaixeoto.practice;
 
 import android.graphics.Rect;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -18,18 +16,19 @@ import android.widget.TextView;
 
 import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
+import com.example.minhnt.thibanglaixeoto.object.QuestionDao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by minh.nt on 8/9/2017.
- */
+import io.realm.Realm;
+import io.realm.RealmResults;
 
-public class LearnFragment extends Fragment {
+public class PracticeActivity extends AppCompatActivity {
+
     private RecyclerView rvLearn;
-    private ExamAdapter examAdapter;
-    private List<Question> questions;
+    private PracticeAdapter examAdapter;
+    private List<Question> questions = new ArrayList<>();
     private int countCorrect = 0;
     private LinearLayout llResult;
     private TextView tvChucMung, tvScore;
@@ -38,17 +37,17 @@ public class LearnFragment extends Fragment {
     private Button btnFinish;
     private List<Question> wrongList = new ArrayList<>();
 
-    @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_learn, container, false);
-    }
-
-    @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        rvLearn = view.findViewById(R.id.rvLearn);
-        rvLearn.setLayoutManager(new LinearLayoutManager(getContext()));
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_practice);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        RealmResults<QuestionDao> questionDaoRealmResults = Realm.getDefaultInstance().where(QuestionDao.class).findAll();
+        for (int i = 0; i < questionDaoRealmResults.size(); i++) {
+            questions.add(questionDaoRealmResults.get(i).convert());
+        }
+        rvLearn = (RecyclerView) findViewById(R.id.rvLearn);
+        rvLearn.setLayoutManager(new LinearLayoutManager(this));
         rvLearn.addItemDecoration(new RecyclerView.ItemDecoration() {
             @Override
             public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
@@ -56,11 +55,9 @@ public class LearnFragment extends Fragment {
                 outRect.set(10, 20, 10, 20);
             }
         });
-        examAdapter = new ExamAdapter(questions);
+        examAdapter = new PracticeAdapter(questions);
         rvLearn.setAdapter(examAdapter);
-
-        addControl(view);
-
+        addControl();
         btnFinish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,7 +77,7 @@ public class LearnFragment extends Fragment {
                     }
 
                     //notify tô màu câu sai
-                    examAdapter.setQuestions(LearnFragment.this.questions);
+                    examAdapter.setQuestions(PracticeActivity.this.questions);
 
                     //hiển thị màn hình chúc mừng
                     result(countCorrect);
@@ -128,16 +125,21 @@ public class LearnFragment extends Fragment {
         return false;
     }
 
-    private void addControl(View view) {
-        btnFinish = view.findViewById(R.id.btnFinish);
-        llResult = view.findViewById(R.id.llResult);
-        tvChucMung = view.findViewById(R.id.tvChucMung);
-        tvScore = view.findViewById(R.id.tvScore);
-        ivChucMung = view.findViewById(R.id.ivChucMung);
-        cbShowWrong = view.findViewById(R.id.cbShowWrong);
+    private void addControl() {
+        btnFinish = (Button) findViewById(R.id.btnFinish);
+        llResult = (LinearLayout) findViewById(R.id.llResult);
+        tvChucMung = (TextView) findViewById(R.id.tvChucMung);
+        tvScore = (TextView) findViewById(R.id.tvScore);
+        ivChucMung = (ImageView) findViewById(R.id.ivChucMung);
+        cbShowWrong = (CheckBox) findViewById(R.id.cbShowWrong);
     }
 
-    public void setQuestions(List<Question> questions) {
-        this.questions = questions;
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+        }
+
+        return true;
     }
 }

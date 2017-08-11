@@ -1,8 +1,7 @@
-package com.example.minhnt.thibanglaixeoto.learn;
+package com.example.minhnt.thibanglaixeoto.practice;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,33 +17,31 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
 import com.example.minhnt.thibanglaixeoto.object.QuestionDao;
-import com.example.minhnt.thibanglaixeoto.util.Util;
 
 import java.util.List;
 
 import io.realm.Realm;
 
-
 /**
- * Created by minh.nt on 8/9/2017.
+ * Created by minh.nt on 8/11/2017.
  */
 
-public class ExamAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class PracticeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private List<Question> questions;
 
-    public ExamAdapter(List<Question> ques) {
-        this.questions = ques;
+    public PracticeAdapter(List<Question> questions) {
+        this.questions = questions;
     }
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View photoSingle = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_learn, parent, false);
-        return new MyViewHolder(photoSingle);
+        View photoSingle = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_practice, parent, false);
+        return new PracticeAdapter.MyViewHolder(photoSingle);
     }
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        ((MyViewHolder) holder).setData(questions.get(position));
+        ((PracticeAdapter.MyViewHolder) holder).setData(questions.get(position));
     }
 
     @Override
@@ -81,28 +78,12 @@ public class ExamAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                     Question question = questions.get(getLayoutPosition());
                     QuestionDao quesDao = realm.where(QuestionDao.class).equalTo("questionContent", question.questionContent).equalTo("image", question.image).equalTo("answerContent1", question.answerContent1).findFirst();
                     if (quesDao != null) {
-                        Util.showMessage(itemView.getContext(), "Câu hỏi này đã được lưu rồi");
-                    } else {
                         realm.beginTransaction();
-                        int nextId = 1;
-                        if (realm.where(QuestionDao.class).max("id") != null)
-                            nextId = (realm.where(QuestionDao.class).max("id").intValue() + 1);
-                        QuestionDao questionDao = realm.createObject(QuestionDao.class, nextId);
-
-                        Log.d("hehe", nextId + "");
-                        questionDao.questionContent = question.questionContent;
-                        questionDao.answerContent1 = question.answerContent1;
-                        questionDao.answerContent2 = question.answerContent2;
-                        questionDao.answerContent3 = question.answerContent3;
-                        questionDao.answerContent4 = question.answerContent4;
-                        questionDao.image = question.image;
-                        questionDao.type = question.type;
-                        questionDao.correctAnswer1 = question.correctAnswer1;
-                        questionDao.correctAnswer2 = question.correctAnswer2;
-                        questionDao.correctAnswer3 = question.correctAnswer3;
-                        questionDao.correctAnswer4 = question.correctAnswer4;
+                        quesDao.deleteFromRealm();
                         realm.commitTransaction();
-                        Toast.makeText(itemView.getContext(), "Lưu thành công!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(itemView.getContext(), "Xóa thành công", Toast.LENGTH_LONG).show();
+                        questions.remove(getLayoutPosition());
+                        notifyDataSetChanged();
                     }
                 }
             });

@@ -31,7 +31,7 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:background="@android:color/holo_blue_light"
-                android:text="Lưu lại"
+                android:text="Đã nhớ"
                 android:textColor="@android:color/white"
                 android:visibility="gone" />
         </LinearLayout>

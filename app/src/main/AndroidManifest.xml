@@ -3,6 +3,7 @@
     package="com.example.minhnt.thibanglaixeoto">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="true"
@@ -11,17 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
-
-        <activity android:name=".learn.LearnActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".learn.LearnActivity"
+            android:label="Học" />
+        <activity
+            android:name=".practice.PracticeActivity"
+            android:label="Ôn Tập" />
+        <activity android:name=".exam.ExamActivity" />
+        <activity android:name=".exam.ChooseExamActivity" />
+        <activity android:name=".ramdom.RandomActivity"></activity>
     </application>
 
 </manifest>

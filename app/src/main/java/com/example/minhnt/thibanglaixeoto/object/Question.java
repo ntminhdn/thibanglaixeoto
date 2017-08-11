@@ -23,4 +23,18 @@ public class Question {
     public boolean myAnswer4 = false;
 
     public boolean isShowCorrectAnswer = false;
+
+    public Question(String type, String questionContent, String image, String answerContent1, String answerContent2, String answerContent3, String answerContent4, boolean correctAnswer1, boolean correctAnswer2, boolean correctAnswer3, boolean correctAnswer4) {
+        this.type = type;
+        this.questionContent = questionContent;
+        this.image = image;
+        this.answerContent1 = answerContent1;
+        this.answerContent2 = answerContent2;
+        this.answerContent3 = answerContent3;
+        this.answerContent4 = answerContent4;
+        this.correctAnswer1 = correctAnswer1;
+        this.correctAnswer2 = correctAnswer2;
+        this.correctAnswer3 = correctAnswer3;
+        this.correctAnswer4 = correctAnswer4;
+    }
 }
