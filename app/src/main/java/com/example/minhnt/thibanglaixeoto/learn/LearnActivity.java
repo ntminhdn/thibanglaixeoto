@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
@@ -37,16 +38,16 @@ public class LearnActivity extends AppCompatActivity {
         lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE3));
         lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE4));
         lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE5));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE6));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE7));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE8));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE9));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE10));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE11));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE12));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE13));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE14));
-        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE15));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE1));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE2));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE3));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE4));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE5));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE1));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE2));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE3));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE4));
+        lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE5));
 
         vpLearn = (ViewPager) findViewById(R.id.vpLearn);
         tabLearn = (TabLayout) findViewById(R.id.tabLearn);
@@ -61,6 +62,13 @@ public class LearnActivity extends AppCompatActivity {
         }.getType();
         List<Question> list = new Gson().fromJson(jsonOutput, listType);
         if (list != null) {
+            for (int i = 0; i < list.size(); i++) {
+                Log.d("hihi", "Câu " + (i + 1) + "");
+                Log.d("hihi", list.get(i).correctAnswer1 + "");
+                Log.d("hihi", list.get(i).correctAnswer2 + "");
+                Log.d("hihi", list.get(i).correctAnswer3 + "");
+                Log.d("hihi", list.get(i).correctAnswer4 + "");
+            }
             return list;
         }
 
