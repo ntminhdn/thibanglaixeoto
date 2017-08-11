@@ -74,7 +74,7 @@ public class ExamAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             Log.d("hihi", data.correctAnswer3 + "");
             Log.d("hihi", data.correctAnswer4 + "");
             question = data;
-            tvNumber.setText((getLayoutPosition() + 1) + " / 30");
+            tvNumber.setText((getLayoutPosition() + 1) + " / " + getItemCount());
             tvQuestionContent.setText(removePrefix(data.questionContent));
             cbAnswer1.setText(data.answerContent1);
             cbAnswer2.setText(data.answerContent2);
@@ -88,6 +88,10 @@ public class ExamAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             cbAnswer2.setEnabled(!data.isShowCorrectAnswer);
             cbAnswer3.setEnabled(!data.isShowCorrectAnswer);
             cbAnswer4.setEnabled(!data.isShowCorrectAnswer);
+            cbAnswer1.setVisibility(data.answerContent1.equals("") ? View.GONE : View.VISIBLE);
+            cbAnswer2.setVisibility(data.answerContent2.equals("") ? View.GONE : View.VISIBLE);
+            cbAnswer3.setVisibility(data.answerContent3.equals("") ? View.GONE : View.VISIBLE);
+            cbAnswer4.setVisibility(data.answerContent4.equals("") ? View.GONE : View.VISIBLE);
 
             if (data.isShowCorrectAnswer) {
                 if (data.correctAnswer1) {
