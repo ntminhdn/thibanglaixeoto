@@ -1,4 +1,4 @@
-package com.example.minhnt.thibanglaixeoto.learn;
+package com.example.minhnt.thibanglaixeoto.exam;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
@@ -18,33 +18,33 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
 import com.example.minhnt.thibanglaixeoto.object.QuestionDao;
+import com.example.minhnt.thibanglaixeoto.practice.PracticeAdapter;
 import com.example.minhnt.thibanglaixeoto.util.Util;
 
 import java.util.List;
 
 import io.realm.Realm;
 
-
 /**
- * Created by minh.nt on 8/9/2017.
+ * Created by PC on 8/12/2017.
  */
 
-public class ExamAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class TestAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private List<Question> questions;
 
-    public ExamAdapter(List<Question> ques) {
-        this.questions = ques;
+    public TestAdapter(List<Question> questions) {
+        this.questions = questions;
     }
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View photoSingle = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_learn, parent, false);
-        return new MyViewHolder(photoSingle);
+        return new TestAdapter.MyViewHolder(photoSingle);
     }
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        ((MyViewHolder) holder).setData(questions.get(position));
+        ((TestAdapter.MyViewHolder) holder).setData(questions.get(position));
     }
 
     @Override

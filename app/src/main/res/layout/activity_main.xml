@@ -59,6 +59,14 @@
                 android:text="Thi thử"
                 android:textColor="@android:color/white" />
 
+            <Button
+                android:id="@+id/btnRandom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="Làm bài ngẫu nhiên"
+                android:textColor="@android:color/white" />
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>

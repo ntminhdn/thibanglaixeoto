@@ -1,9 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.minhnt.thibanglaixeoto.ramdom.RandomActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivPre"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNumberRandom"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="Câu 1" />
+
+            <TextView
+                android:id="@+id/tvTimerRandom"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="40 giây"
+                android:textColor="@android:color/holo_red_light" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/ivNext"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpRandom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnKiemtra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Kiểm tra"
+        android:textColor="@android:color/white" />
+</LinearLayout>

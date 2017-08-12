@@ -1,6 +1,7 @@
 package com.example.minhnt.thibanglaixeoto.util;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 
@@ -35,7 +36,7 @@ public class Util {
         }
     }
 
-    public static void showMessage(@NonNull Context context, String message) {
-        new AlertDialog.Builder(context).setTitle(R.string.app_name).setMessage(message).setPositiveButton(android.R.string.ok, null).show();
+    public static void showMessage(@NonNull Context context, String message, DialogInterface.OnClickListener listener) {
+        new AlertDialog.Builder(context).setTitle(R.string.app_name).setMessage(message).setPositiveButton(android.R.string.ok, listener).show();
     }
 }

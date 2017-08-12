@@ -9,12 +9,13 @@ import android.widget.Button;
 import com.example.minhnt.thibanglaixeoto.exam.ChooseExamActivity;
 import com.example.minhnt.thibanglaixeoto.learn.LearnActivity;
 import com.example.minhnt.thibanglaixeoto.practice.PracticeActivity;
+import com.example.minhnt.thibanglaixeoto.ramdom.RandomActivity;
 
 import io.realm.Realm;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnLearn, btnPractice, btnExam;
+    private Button btnLearn, btnPractice, btnExam, btnRandom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +30,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnLearn = (Button) findViewById(R.id.btnLearn);
         btnPractice = (Button) findViewById(R.id.btnPractice);
         btnExam = (Button) findViewById(R.id.btnExam);
+        btnRandom = (Button) findViewById(R.id.btnRandom);
         btnLearn.setOnClickListener(this);
         btnPractice.setOnClickListener(this);
         btnExam.setOnClickListener(this);
+        btnRandom.setOnClickListener(this);
     }
 
     @Override
@@ -48,6 +51,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnExam:
                 Intent intent1 = new Intent(MainActivity.this, ChooseExamActivity.class);
                 startActivity(intent1);
+                break;
+            case R.id.btnRandom:
+                Intent intent3 = new Intent(MainActivity.this, RandomActivity.class);
+                startActivity(intent3);
                 break;
         }
     }

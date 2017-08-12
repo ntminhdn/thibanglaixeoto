@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.minhnt.thibanglaixeoto.exam.CongratActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/givSakura"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hoa" />
+
+    <TextView
+        android:id="@+id/tvChucMungMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Chúc mừng bạn đã hoàn thành đề thi sát hạch với số điểm tuyệt đối"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ivShare"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvChucMungMax"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/pink"
+        android:drawableLeft="@drawable/share2"
+        android:drawableStart="@drawable/share2"
+        android:gravity="center"
+        android:text="Chia sẻ niềm vui"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</RelativeLayout>
