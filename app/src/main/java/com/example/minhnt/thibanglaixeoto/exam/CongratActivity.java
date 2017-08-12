@@ -1,18 +1,15 @@
 package com.example.minhnt.thibanglaixeoto.exam;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 
 import com.example.minhnt.thibanglaixeoto.R;
+import com.example.minhnt.thibanglaixeoto.util.Sound;
 
-import java.io.IOException;
-
-import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
 public class CongratActivity extends AppCompatActivity {
@@ -35,6 +32,9 @@ public class CongratActivity extends AppCompatActivity {
                 startActivity(Intent.createChooser(share, "Chia sẻ niềm vui với bạn bè"));
             }
         });
+
+        MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.win);
+        mediaPlayer.start();
     }
 
     @Override

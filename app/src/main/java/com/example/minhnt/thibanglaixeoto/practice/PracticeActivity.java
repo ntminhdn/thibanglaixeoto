@@ -42,9 +42,14 @@ public class PracticeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        addControl();
         RealmResults<QuestionDao> questionDaoRealmResults = Realm.getDefaultInstance().where(QuestionDao.class).findAll();
         for (int i = 0; i < questionDaoRealmResults.size(); i++) {
             questions.add(questionDaoRealmResults.get(i).convert());
+        }
+        if (questions.size() == 0) {
+            findViewById(R.id.tvNothing).setVisibility(View.VISIBLE);
+            btnFinish.setVisibility(View.GONE);
         }
         rvLearn = (RecyclerView) findViewById(R.id.rvLearn);
         rvLearn.setLayoutManager(new LinearLayoutManager(this));
@@ -57,7 +62,7 @@ public class PracticeActivity extends AppCompatActivity {
         });
         examAdapter = new PracticeAdapter(questions);
         rvLearn.setAdapter(examAdapter);
-        addControl();
+
         btnFinish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

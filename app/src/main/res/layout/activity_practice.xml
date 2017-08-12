@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -17,7 +17,6 @@
             android:id="@+id/tvChucMung"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="18sp"
@@ -26,24 +25,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
             android:orientation="horizontal"
             android:weightSum="2">
 
             <TextView
                 android:id="@+id/tvScore"
                 android:layout_width="0dp"
-                android:layout_height="40dp"
+                android:layout_height="20dp"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textColor="@android:color/white"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="italic" />
 
             <ImageView
                 android:id="@+id/ivChucMung"
                 android:layout_width="0dp"
-                android:layout_height="40dp"
+                android:layout_height="20dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:src="@drawable/smile" />
@@ -58,18 +55,30 @@
             android:textColor="@android:color/white" />
     </LinearLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvLearn"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
-
     <Button
         android:id="@+id/btnFinish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_margin="5dp"
         android:background="@android:color/holo_blue_dark"
         android:text="Nộp bài"
         android:textColor="@android:color/white" />
-</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvLearn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnFinish"
+        android:layout_below="@id/llResult" />
+
+    <TextView
+        android:id="@+id/tvNothing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Không có câu nào cần ôn tập"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</RelativeLayout>

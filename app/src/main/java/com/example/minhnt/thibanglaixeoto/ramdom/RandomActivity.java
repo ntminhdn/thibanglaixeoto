@@ -1,7 +1,7 @@
 package com.example.minhnt.thibanglaixeoto.ramdom;
 
 import android.content.Context;
-import android.content.DialogInterface;
+import android.media.MediaPlayer;
 import android.os.CountDownTimer;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +14,9 @@ import android.widget.TextView;
 
 import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
+import com.example.minhnt.thibanglaixeoto.util.ArrayRandom;
 import com.example.minhnt.thibanglaixeoto.util.Constants;
+import com.example.minhnt.thibanglaixeoto.util.Sound;
 import com.example.minhnt.thibanglaixeoto.util.Util;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -57,6 +59,7 @@ public class RandomActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_random);
         addControl();
         addAllQuestions();
+        questions = ArrayRandom.get((ArrayList<Question>) questions);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         randomPagerAdapter = new RandomPagerAdapter(questions);
         vpRandom.setAdapter(randomPagerAdapter);
@@ -77,8 +80,12 @@ public class RandomActivity extends AppCompatActivity implements View.OnClickLis
                 if (!checkCorrect(questions.get(position))) {
                     showCorrect(position);
                     timer.cancel();
+                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sai);
+                    mediaPlayer.start();
                 } else {
                     goNext();
+                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.dung);
+                    mediaPlayer.start();
                 }
             }
         }.start();
@@ -124,8 +131,12 @@ public class RandomActivity extends AppCompatActivity implements View.OnClickLis
                 if (!checkCorrect(questions.get(position))) {
                     showCorrect(position);
                     timer.cancel();
+                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sai);
+                    mediaPlayer.start();
                 } else {
                     goNext();
+                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.dung);
+                    mediaPlayer.start();
                 }
                 break;
         }
