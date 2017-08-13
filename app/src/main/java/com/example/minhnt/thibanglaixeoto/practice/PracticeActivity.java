@@ -113,11 +113,11 @@ public class PracticeActivity extends AppCompatActivity {
     private void result(int count) {
         llResult.setVisibility(View.VISIBLE);
         tvScore.setText("Điểm của bạn: " + count + " / " + questions.size());
-        if (count >= 26) {
-            tvChucMung.setText("Xin chúc mừng bạn đã vượt qua kỳ sát hạch");
+        if (count == questions.size()) {
+            tvChucMung.setText("Xin chúc mừng bạn đã ôn tập xong");
             ivChucMung.setImageResource(R.drawable.smile);
         } else {
-            tvChucMung.setText("Bạn chưa vượt qua kỳ sát hạch");
+            tvChucMung.setText("Bạn cần ôn tập tiếp");
             ivChucMung.setImageResource(R.drawable.sad);
         }
     }

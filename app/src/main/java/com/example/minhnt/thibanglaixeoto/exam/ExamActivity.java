@@ -89,7 +89,7 @@ public class ExamActivity extends AppCompatActivity {
                         }
                     }
 
-                    if (countCorrect == 1) {
+                    if (countCorrect == questions.size()) {
                         goToCongrat();
                         finish();
                     }
