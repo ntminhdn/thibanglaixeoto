@@ -1,6 +1,8 @@
 package com.example.minhnt.thibanglaixeoto;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -10,6 +12,7 @@ import com.example.minhnt.thibanglaixeoto.exam.ChooseExamActivity;
 import com.example.minhnt.thibanglaixeoto.learn.LearnActivity;
 import com.example.minhnt.thibanglaixeoto.practice.PracticeActivity;
 import com.example.minhnt.thibanglaixeoto.ramdom.RandomActivity;
+import com.example.minhnt.thibanglaixeoto.util.Util;
 
 import io.realm.Realm;
 
@@ -22,6 +25,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Realm.init(this);
+        if (!getSharedPreferences("oto", MODE_PRIVATE).getBoolean("never", false)) {
+            Util.showMessage(this, "Chú ý: Bạn cần kết nối Internet để tải các câu hỏi có hình ảnh", null, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    SharedPreferences preferences = getSharedPreferences("oto", MODE_PRIVATE);
+                    SharedPreferences.Editor edit = preferences.edit();
+                    edit.putBoolean("never", true);
+                    edit.commit();
+                }
+            });
+        }
 
         addControl();
     }

@@ -39,4 +39,8 @@ public class Util {
     public static void showMessage(@NonNull Context context, String message, DialogInterface.OnClickListener listener) {
         new AlertDialog.Builder(context).setTitle(R.string.app_name).setMessage(message).setPositiveButton(android.R.string.ok, listener).show();
     }
+
+    public static void showMessage(@NonNull Context context, String message, DialogInterface.OnClickListener listener, DialogInterface.OnClickListener listener2) {
+        new AlertDialog.Builder(context).setTitle(R.string.app_name).setMessage(message).setPositiveButton(android.R.string.ok, listener).setNegativeButton("Không nhắc lại", listener2).show();
+    }
 }
