@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "947862913123",
+    "firebase_url": "https://thibanglaixeoto-e522f.firebaseio.com",
+    "project_id": "thibanglaixeoto-e522f",
+    "storage_bucket": "thibanglaixeoto-e522f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947862913123:android:e0a0dbd736fa8578",
+        "android_client_info": {
+          "package_name": "com.example.minhnt.thibanglaixeoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947862913123-jc2h9b04knrfsemnosp1lgvf4441255m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minhnt.thibanglaixeoto",
+            "certificate_hash": "68d39fb8a624c25f9a1ccb8b63a319e5d16d93d0"
+          }
+        },
+        {
+          "client_id": "947862913123-49h034r2vqgel95out5b8lph606tk0pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDsMqryiGugM2zWvaiPPwieSH5xSu2NNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947862913123-49h034r2vqgel95out5b8lph606tk0pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

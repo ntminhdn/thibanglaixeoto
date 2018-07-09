@@ -13,17 +13,25 @@ import com.example.minhnt.thibanglaixeoto.learn.LearnActivity;
 import com.example.minhnt.thibanglaixeoto.practice.PracticeActivity;
 import com.example.minhnt.thibanglaixeoto.ramdom.RandomActivity;
 import com.example.minhnt.thibanglaixeoto.util.Util;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import io.realm.Realm;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnLearn, btnPractice, btnExam, btnRandom;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MobileAds.initialize(this, "ca-app-pub-5290873807821544~6183084411");
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         Realm.init(this);
         if (!getSharedPreferences("oto", MODE_PRIVATE).getBoolean("never", false)) {
             Util.showMessage(this, "Chú ý: Bạn cần kết nối Internet để tải các câu hỏi có hình ảnh", null, new DialogInterface.OnClickListener() {
