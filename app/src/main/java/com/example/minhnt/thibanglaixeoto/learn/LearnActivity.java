@@ -13,6 +13,8 @@ import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
 import com.example.minhnt.thibanglaixeoto.util.Constants;
 import com.example.minhnt.thibanglaixeoto.util.Util;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -29,13 +31,17 @@ public class LearnActivity extends AppCompatActivity {
     private ViewPager vpLearn;
     private List<List<Question>> lists = new ArrayList<>();
     private LearnViewPagerAdapter adapter;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learn);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE1));
         lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE2));
         lists.add(loadDataFromAsset(this, Constants.ASSET_PATH_DE3));

@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     SharedPreferences preferences = getSharedPreferences("oto", MODE_PRIVATE);
                     SharedPreferences.Editor edit = preferences.edit();
                     edit.putBoolean("never", true);
-                    edit.commit();
+                    edit.apply();
                 }
             });
         }

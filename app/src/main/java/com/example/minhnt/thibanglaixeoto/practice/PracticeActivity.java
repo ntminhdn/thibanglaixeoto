@@ -17,6 +17,9 @@ import android.widget.TextView;
 import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
 import com.example.minhnt.thibanglaixeoto.object.QuestionDao;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,11 +39,22 @@ public class PracticeActivity extends AppCompatActivity {
     private CheckBox cbShowWrong;
     private Button btnFinish;
     private List<Question> wrongList = new ArrayList<>();
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice);
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+
+        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         addControl();
         RealmResults<QuestionDao> questionDaoRealmResults = Realm.getDefaultInstance().where(QuestionDao.class).findAll();
@@ -67,6 +81,9 @@ public class PracticeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (btnFinish.getText().equals("Nộp bài")) {
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    }
                     cbShowWrong.setChecked(false);
 
                     //xác định đúng sai

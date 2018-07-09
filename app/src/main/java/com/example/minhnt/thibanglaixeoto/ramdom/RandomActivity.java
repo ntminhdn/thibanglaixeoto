@@ -2,10 +2,9 @@ package com.example.minhnt.thibanglaixeoto.ramdom;
 
 import android.content.Context;
 import android.media.MediaPlayer;
-import android.os.CountDownTimer;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -16,8 +15,10 @@ import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
 import com.example.minhnt.thibanglaixeoto.util.ArrayRandom;
 import com.example.minhnt.thibanglaixeoto.util.Constants;
-import com.example.minhnt.thibanglaixeoto.util.Sound;
 import com.example.minhnt.thibanglaixeoto.util.Util;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -29,12 +30,14 @@ public class RandomActivity extends AppCompatActivity implements View.OnClickLis
 
     private ImageView ivPre, ivNext;
     private TextView tvNumber, tvTimer;
-    private ViewPager vpRandom;
+    private NoSwipePager vpRandom;
     private Button btnKiemtra;
     private RandomPagerAdapter randomPagerAdapter;
     private List<Question> questions = new ArrayList<>();
     private int position = 0;
     private CountDownTimer timer;
+    private InterstitialAd mInterstitialAd;
+
     private String[] paths = new String[]{
             Constants.ASSET_PATH_DE1,
             Constants.ASSET_PATH_DE2,
@@ -57,13 +60,23 @@ public class RandomActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_random);
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+
+        });
         addControl();
         addAllQuestions();
         questions = ArrayRandom.get((ArrayList<Question>) questions);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         randomPagerAdapter = new RandomPagerAdapter(questions);
         vpRandom.setAdapter(randomPagerAdapter);
-        vpRandom.beginFakeDrag();
+        vpRandom.setPagingEnabled(false);
         ivNext.setOnClickListener(this);
         ivPre.setOnClickListener(this);
         btnKiemtra.setOnClickListener(this);
@@ -114,7 +127,7 @@ public class RandomActivity extends AppCompatActivity implements View.OnClickLis
         ivNext = (ImageView) findViewById(R.id.ivNext);
         tvNumber = (TextView) findViewById(R.id.tvNumberRandom);
         tvTimer = (TextView) findViewById(R.id.tvTimerRandom);
-        vpRandom = (ViewPager) findViewById(R.id.vpRandom);
+        vpRandom = (NoSwipePager) findViewById(R.id.vpRandom);
         btnKiemtra = (Button) findViewById(R.id.btnKiemtra);
     }
 
@@ -168,6 +181,9 @@ public class RandomActivity extends AppCompatActivity implements View.OnClickLis
         timer.cancel();
         timer.start();
         position++;
+        if (position % 15 == 0 && mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        }
         hidden(position);
         vpRandom.setCurrentItem(position, true);
         tvNumber.setText("Câu " + (position + 1));

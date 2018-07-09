@@ -1,6 +1,7 @@
 package com.example.minhnt.thibanglaixeoto.ramdom;
 
 import android.graphics.Color;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +23,7 @@ import java.util.List;
  * Created by PC on 8/12/2017.
  */
 
-public class RandomPagerAdapter extends PagerAdapter {
+public class RandomPagerAdapter extends SmartFragmentStatePagerAdapter {
     private List<Question> questions;
 
     public RandomPagerAdapter(List<Question> questions) {

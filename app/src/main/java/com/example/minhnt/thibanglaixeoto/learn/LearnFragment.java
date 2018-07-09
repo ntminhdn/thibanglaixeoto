@@ -18,6 +18,9 @@ import android.widget.TextView;
 
 import com.example.minhnt.thibanglaixeoto.R;
 import com.example.minhnt.thibanglaixeoto.object.Question;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +40,7 @@ public class LearnFragment extends Fragment {
     private CheckBox cbShowWrong;
     private Button btnFinish;
     private List<Question> wrongList = new ArrayList<>();
+    private InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
@@ -47,6 +51,15 @@ public class LearnFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        mInterstitialAd = new InterstitialAd(getContext());
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
         rvLearn = view.findViewById(R.id.rvLearn);
         rvLearn.setLayoutManager(new LinearLayoutManager(getContext()));
         rvLearn.addItemDecoration(new RecyclerView.ItemDecoration() {
@@ -65,6 +78,9 @@ public class LearnFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 if (btnFinish.getText().equals("Nộp bài")) {
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    }
                     cbShowWrong.setChecked(false);
 
                     //xác định đúng sai

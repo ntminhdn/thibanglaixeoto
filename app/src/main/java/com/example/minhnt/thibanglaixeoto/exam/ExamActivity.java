@@ -24,6 +24,9 @@ import com.example.minhnt.thibanglaixeoto.object.Question;
 import com.example.minhnt.thibanglaixeoto.practice.PracticeAdapter;
 import com.example.minhnt.thibanglaixeoto.util.Constants;
 import com.example.minhnt.thibanglaixeoto.util.Util;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -44,11 +47,22 @@ public class ExamActivity extends AppCompatActivity {
     private List<Question> wrongList = new ArrayList<>();
     private TextView tvTimer;
     private CountDownTimer timer;
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam);
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+
+        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         int lesson = getIntent().getIntExtra(Constants.LESSON_NUMBER, 0);
         if (lesson != 0) {
@@ -74,6 +88,10 @@ public class ExamActivity extends AppCompatActivity {
 
 
                 if (btnFinish.getText().equals("Nộp bài")) {
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    }
+
                     cbShowWrong.setChecked(false);
                     timer.cancel();
 
