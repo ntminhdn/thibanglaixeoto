@@ -8,20 +8,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:947862913123:android:e0a0dbd736fa8578",
+        "mobilesdk_app_id": "1:947862913123:android:252ca73772742e70",
         "android_client_info": {
-          "package_name": "com.example.minhnt.thibanglaixeoto"
+          "package_name": "com.minhnt.studio.thibanglaixeoto"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "947862913123-jc2h9b04knrfsemnosp1lgvf4441255m.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.minhnt.thibanglaixeoto",
-            "certificate_hash": "68d39fb8a624c25f9a1ccb8b63a319e5d16d93d0"
-          }
-        },
         {
           "client_id": "947862913123-49h034r2vqgel95out5b8lph606tk0pe.apps.googleusercontent.com",
           "client_type": 3
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "947862913123-49h034r2vqgel95out5b8lph606tk0pe.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
